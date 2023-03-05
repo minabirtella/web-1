@@ -1,0 +1,506 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    /* background-color:aqua; */
+
+
+}
+
+nav .text-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-top: 80px;
+    margin-left: -20px;
+    
+}
+
+.text-left img {
+    margin-top: -10px;
+    margin-left: 300px;
+    margin-right: -40px;
+    
+
+}
+
+    
+
+.text-left a { 
+    text-decoration: none;
+    color: rgb(107, 107, 107);
+    margin-left: 50px ;
+    margin-top: 20px;
+    margin-right: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+        Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-weight: 500    
+    
+}
+
+.text-left a::after {
+    content:'';
+    width: 0;
+    height: 3px;
+    background-color:  #9358ff;
+    margin: auto ;
+    display: block;
+    border-radius: 5px;
+
+}
+
+
+.text-left a:hover::after {
+    width: 50%;
+    margin-right: 20px;
+    /* margin-top: 30px; */
+    margin-left: 50px;
+    transition: 0.5s ease;
+
+}
+
+
+nav button {    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 25px;
+    width: 80px;
+    margin-right: 350px;
+    margin-top: 60px;
+    border-radius: 50px;
+    border: none;
+    background-color:white;
+    cursor: pointer;
+    color: black;
+    transition:all 0.3s ease 0s ;
+}
+
+nav button:hover{
+    /* background-color:#007bff; */
+    color:rgb(14, 204, 238) ;
+}
+
+
+body {
+    background-image: url(blue_bg.png) ;
+    background-attachment: scroll;
+    /* background-size: cover; */
+    /* background-position: top; */
+    background-repeat: no-repeat;
+    height: 3000px;
+}
+
+.sec1{
+    margin-top: 100px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.sec1-text {
+    position: relative;
+}
+
+
+
+.img3{
+    position: absolute ;
+    left: 51%;
+    z-index: 1;
+    top: 8%;
+}
+
+.img1 {
+    position: absolute;
+    left: 58%;
+    top: 50%;
+    z-index: 6; 
+}
+
+.img2 {
+    position: absolute;
+    left: 60%;
+    z-index: 2;
+    top: 11%;
+}
+
+.img4 {
+    position: absolute;
+    left: 0%;
+    top: 58%;
+}
+
+
+.sec1-text{
+    margin-left: 350px;
+    margin-top: 220px;
+
+
+}
+
+.sell{
+    font-family:varela round ;
+    font-size: 55px;  
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;    
+
+} 
+
+.deliver {
+    font-family:varela round ;
+    font-size: 55px;  
+    font-weight: bold;
+    display: flex;
+    justify-content: center;   
+    color: #96318D;
+}
+
+
+
+.sec1-text p {
+    font-family: varela round ;
+    font-weight:lighter;
+    font-size: 25px;
+    line-height: 40px;
+    word-spacing: normal;
+}
+
+.sec2{
+    margin-top: 450px;
+    height: 200px;
+}
+
+.sec2 .img5 {
+
+    position: relative;
+    margin-left: 480px;
+    z-index: 3;
+}
+
+.img6,
+.img7,
+.img8,
+.img9 {
+    position: absolute;
+
+}
+
+.img6 {
+    top: 93%;
+    left: 18%;
+}
+
+.img7 {
+    top: 109%;
+    left: 45%;
+    z-index: 4;
+
+}
+
+.img8 {
+    top: 136%;
+    left: 63.5%;
+}
+
+.img9 {
+    top: 138%;
+    left: 17%;
+}
+
+.img6-text {
+    position: absolute;
+    top: 115%;
+    left: 19%;
+    font-family: varela round;
+    font-weight: 600;
+    font-size: 26px;
+    color: gray;
+}
+
+.img6-text2 {
+    position: absolute;
+    top: 116%;
+    left: 10%;
+    font-family: varela round;
+    font-weight: lighter;
+    font-size: 22px;
+    color: gray;
+
+}
+
+.img7-text {
+    position: absolute;
+    top: 127%;
+    left: 45%;
+    font-family: varela round;
+    font-weight: 600;
+    font-size: 26px;
+    color: gray;
+}
+
+.img7-text2 {
+    position: absolute;
+    top: 128%;
+    left: 35%;
+    font-family: varela round;
+    font-weight: lighter;
+    font-size: 22px;
+    color: gray;
+
+}
+
+.img8-text {
+    position: absolute;
+    top: 152%;
+    left: 68%;
+    font-family: varela round;
+    font-weight: 600;
+    font-size: 26px;
+    color: gray;
+}
+
+.img8-text2 {
+    position: absolute;
+    top: 153%;
+    left: 52.5%;
+    font-family: varela round;
+    font-weight: lighter;
+    font-size: 22px;
+    color: gray;
+
+}
+
+
+.img9-text2 {
+    position: absolute;
+    top: 145%;
+    left: 16.7%;
+    font-family: varela round;
+    font-weight: 100;
+    font-size: 16px;
+    color: white;
+}
+
+.img9-text {
+    position: absolute;
+    top: 150%;
+    left: 21%;
+    font-family: varela round;
+    font-weight: lighter;
+    font-size: 42px;
+    color:white;
+
+}
+
+
+.sec3 {
+    margin-top: 1100px;
+    margin-left: 180px;
+    width: 90%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+
+}
+
+.sec3-text{
+    position: absolute;
+    margin-top: 500px;
+    margin-right: 210px;
+    font-family: varela round;
+    color: rgb(94, 94, 94);
+    font-size: medium;
+    font-weight: 600;
+    
+
+}
+
+.sec3-text2{
+    position: absolute;
+    margin-top: 270px;
+    margin-left: -1032px ;
+    font-family: varela round;
+    color: gray;
+    font-size: ;
+
+}
+
+.arrows{
+    font-family: varela round;
+    font-weight: bolder;
+    font-size: 25px;
+    color: gray;
+    margin-top: 200px;
+}
+footer {
+    height: 700px;
+    width: 100%;
+    margin-top: 350px;
+    background-image: url(Group\ 1131.png) ;
+    background-repeat: no-repeat;
+    background: size 20px;
+    background-position-x: -100px;
+    background-position-y:-85px ;
+    
+}
+
+.sec4 {
+    height: 700px;
+    display: flex;
+    margin-top: ;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+
+.logos{
+    width: 100px;
+    margin-top: 250px;
+    margin-left: -80px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.astore {
+    padding: 10px 100px 10px 10px;
+    background-color: white;
+    border-radius: 10px;
+    height: 60px;
+    width: 180px;
+    margin-left: 100px;
+    
+}
+
+
+.pstore {
+    padding: 10px 100px 10px 10px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 10px;
+    height: 60px;
+    width: 180px;
+    margin-left: 10px;
+   
+  
+}
+
+.store-text {
+    width: 200px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -35px;
+}
+
+.download{
+    font-family: varela round;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.sname{
+    font-family: varela round;
+    font-weight: 600;
+    margin-right: 14px;
+}
+
+.box-img {
+    margin-left: 500px;
+    margin-top: 140px;
+    position: relative;
+
+}
+
+.sec5{
+    height: 100px;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 500px;
+    margin-right: 1425px;
+    position: absolute;
+
+}
+
+.list{
+    position: absolute;
+    list-style: none;
+    color: white;
+    margin-top: 580px;
+    margin-right: 1100px;
+    list-style-type: none;
+    overflow: hidden;
+    font-family: varela round;
+    font-size: medium;
+}
+
+li{
+    float: left;
+    margin-right: 55px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
